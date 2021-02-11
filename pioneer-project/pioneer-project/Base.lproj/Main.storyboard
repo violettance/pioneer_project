@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="u3j-l3-OoT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pioneer-->
+        <scene sceneID="hhJ-Lr-TpY">
+            <objects>
+                <tableViewController id="Zfc-g0-W7S" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Sak-Ei-QuO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <sections>
+                            <tableViewSection headerTitle="" footerTitle="" id="NYc-KB-lBJ">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qGh-Gq-lVj" imageView="iAQ-Jc-C00" rowHeight="150" style="IBUITableViewCellStyleDefault" id="F9z-qa-URu">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F9z-qa-URu" id="srm-Mu-LIP">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qGh-Gq-lVj">
+                                                    <rect key="frame" x="99" y="0.0" width="276" height="150"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="about_us" id="iAQ-Jc-C00">
+                                                    <rect key="frame" x="20" y="43" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="mXC-rb-ea7" kind="show" id="y83-mZ-A2L"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="" id="Iob-7N-HIG">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="AjW-sA-jqn" imageView="xgb-Nr-o4u" rowHeight="150" style="IBUITableViewCellStyleDefault" id="LQm-67-WHz">
+                                        <rect key="frame" x="0.0" y="234" width="414" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LQm-67-WHz" id="itV-O8-QJ7">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AjW-sA-jqn">
+                                                    <rect key="frame" x="99" y="0.0" width="276" height="150"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="products" id="xgb-Nr-o4u">
+                                                    <rect key="frame" x="20" y="43" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <connections>
+                                            <segue destination="6Fh-eh-lsp" kind="show" id="9NB-2m-b5P"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="kPk-Ov-gY2">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="53H-PP-xaK" imageView="d3j-Qr-Lxg" rowHeight="150" style="IBUITableViewCellStyleDefault" id="hzl-dG-4gd">
+                                        <rect key="frame" x="0.0" y="440" width="414" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hzl-dG-4gd" id="jFr-eD-RWO">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="53H-PP-xaK">
+                                                    <rect key="frame" x="99" y="0.0" width="276" height="150"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="contact" id="d3j-Qr-Lxg">
+                                                    <rect key="frame" x="20" y="43" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="SmB-z5-ACv" kind="show" id="xKH-PS-L5b"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Zfc-g0-W7S" id="cCr-km-OEq"/>
+                            <outlet property="delegate" destination="Zfc-g0-W7S" id="lpL-0h-YRL"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Pioneer" id="jAG-V0-u6T"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="icQ-0D-Ric" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="491" y="-49"/>
+        </scene>
+        <!--Products-->
+        <scene sceneID="dPx-mz-b93">
+            <objects>
+                <tableViewController modalPresentationStyle="fullScreen" id="6Fh-eh-lsp" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QZl-8W-aEC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <sections>
+                            <tableViewSection id="7SL-Cg-a7Z">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="be3-Jl-J3R" detailTextLabel="LeQ-vD-GX9" imageView="yak-gI-f8s" rowHeight="120" style="IBUITableViewCellStyleSubtitle" id="bHs-nA-80W">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bHs-nA-80W" id="N1i-iY-Ddx">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="BDR-XD07TUHD Blue-ray Drive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="be3-Jl-J3R">
+                                                    <rect key="frame" x="99" y="37" width="255" height="21.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="€139.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LeQ-vD-GX9">
+                                                    <rect key="frame" x="99" y="61.5" width="59.5" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="blueray_drive" id="yak-gI-f8s">
+                                                    <rect key="frame" x="20" y="28" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="mBS-Tj-mR6" kind="show" id="ouI-Vy-dZ7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="RLI-5D-8mk" detailTextLabel="Hb7-Yy-cws" imageView="sqP-Md-D96" rowHeight="120" style="IBUITableViewCellStyleSubtitle" id="7R0-wb-Xyy">
+                                        <rect key="frame" x="0.0" y="148" width="414" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7R0-wb-Xyy" id="Ns8-4w-eoM">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="DDJ-XP2 Sub Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RLI-5D-8mk">
+                                                    <rect key="frame" x="99" y="37" width="194.5" height="21.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="€276.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hb7-Yy-cws">
+                                                    <rect key="frame" x="99" y="61.5" width="60.5" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="dj_controller" id="sqP-Md-D96">
+                                                    <rect key="frame" x="20" y="28" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <connections>
+                                            <segue destination="Dph-gR-hzx" kind="show" id="CEm-kB-uQm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="3gm-xf-ib4" detailTextLabel="LUl-rL-mOJ" imageView="iXS-92-LHh" rowHeight="120" style="IBUITableViewCellStyleSubtitle" id="vWv-vR-3QA">
+                                        <rect key="frame" x="0.0" y="268" width="414" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vWv-vR-3QA" id="bJk-X4-FI4">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="HDJ-700-K Headphone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3gm-xf-ib4">
+                                                    <rect key="frame" x="99" y="37" width="191.5" height="21.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="€209.45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LUl-rL-mOJ">
+                                                    <rect key="frame" x="99" y="61.5" width="62" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="headphone" id="iXS-92-LHh">
+                                                    <rect key="frame" x="20" y="28" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="clJ-HH-Tmx" kind="show" id="lWk-mL-3b7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Frt-zX-ykb" detailTextLabel="nbM-ue-EKF" imageView="Wue-tA-7U6" rowHeight="120" style="IBUITableViewCellStyleSubtitle" id="zvo-gh-tVV">
+                                        <rect key="frame" x="0.0" y="388" width="414" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zvo-gh-tVV" id="5eJ-Yl-SpA">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="X-SMC02D Slim Micro System" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Frt-zX-ykb">
+                                                    <rect key="frame" x="99" y="37" width="244" height="21.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="€327.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nbM-ue-EKF">
+                                                    <rect key="frame" x="99" y="61.5" width="59.5" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="hifi" id="Wue-tA-7U6">
+                                                    <rect key="frame" x="20" y="28" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <connections>
+                                            <segue destination="bqR-79-J5s" kind="show" id="tzU-Py-wis"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="B9Q-Hk-jo6" detailTextLabel="dDr-Dr-nwa" imageView="XvE-ck-iww" rowHeight="120" style="IBUITableViewCellStyleSubtitle" id="mc5-GG-QFe">
+                                        <rect key="frame" x="0.0" y="508" width="414" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mc5-GG-QFe" id="XAs-O6-3UZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="TS-Z10LS4 Subwoofer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B9Q-Hk-jo6">
+                                                    <rect key="frame" x="99" y="37" width="183" height="21.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="€205.70" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dDr-Dr-nwa">
+                                                    <rect key="frame" x="99" y="61.5" width="60.5" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="subwoofer" id="XvE-ck-iww">
+                                                    <rect key="frame" x="20" y="28" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="5NF-dr-NEz" kind="show" id="Hum-pr-HqT"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="6Fh-eh-lsp" id="UoB-tu-wif"/>
+                            <outlet property="delegate" destination="6Fh-eh-lsp" id="zqx-ol-Mzg"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Products" id="kS3-mr-VAG"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="twq-6t-FuQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1482.608695652174" y="-50.223214285714285"/>
+        </scene>
+        <!--About Us-->
+        <scene sceneID="eLF-5j-I2I">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="mXC-rb-ea7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="t7I-Wx-EcF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cbR-xI-530">
+                                <rect key="frame" x="159" y="348" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pioneer_company" translatesAutoresizingMaskIntoConstraints="NO" id="HIR-Av-6ZU">
+                                <rect key="frame" x="20" y="106" width="374" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jkc-RP-sqj">
+                                <rect key="frame" x="27" y="441" width="360" height="407"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <string key="text">Follow us on social media!
+
+
+Instagram | https://cutt.ly/ajv1jCs
+
+Twitter | https://cutt.ly/yjv1lZ6
+
+LinkedIn | https://cutt.ly/ijv1vpR
+
+
+
+PIONEER THROUGH THE AGES
+
+Nozomu Matsumoto founded Pioneer as an audio products manufacturer in 1938, making speakers in his garage.
+
+Today Pioneer is a world leader in electronics products for the car, home and business markets, respected for our role in introducing such innovations as consumer laser disc (1979), car CD player (1984), GPS car navigation (1990), DVD-Video player (1996), high definition plasma display (1997) and organic electroluminscent (OEL) display (1997).  To this day, Pioneer still develops and manufactures innovative and high-tech entertainment and electronic products.
+
+As we move further into the 21st century, the environment of the electronics industry is changing rapidly. In the midst of such change, even more foresight and flexibility are required, particularly in research and development.  R&amp;D has been crucial to Pioneer's growth, creativity and leadership.  With seven percent of revenues invested back into R&amp;D, we continue to develop imaginative products that best fit the lifestyle of the new century.
+
+Whether it's a PureVision plasma television with crystal clear high definition images or a sound system for your car that allows you to hear every bass-thumping note, we want to add that extra feature that makes the music and movies really touch your soul.  In many ways, our corporate slogan says it all - sound.vision.soul.
+
+"Sound" not only indicates Pioneer's very origin - the audio field - but also refers to our aim to resonate with customers.
+
+"Vision" refers to the video business in which Pioneer maintains a leadership position with Blu-ray Disc technology and next generation plasma displays at the core.  It also suggests the company's clear commitment to the future and innovation.
+
+"Soul" emphasizes Pioneer's determination to raise entertainment to the level of pure emotion.  Pioneer truly believes in the power of sound and vision to 'move the heart and touch the soul.'
+
+Everyone's got soul. The never-ending challenge is to find better ways to feel it deeper down inside.  At Pioneer, the slogan "Move the Heart and Touch the Soul," means more than words can express. It's our mission to stir as many senses and sensibilities as we can through the wonders of everlasting sound and vision.
+
+
+INTERNATIONAL PIONEER SITES
+
+
+Global: https://pioneer-audiovisual.com
+
+USA: https://www.pioneerelectronics.com/PUSA/
+
+Canada: http://www.pioneerelectronics.ca/POCEN/
+
+Canada (French): http://www.pioneerelectronics.ca/POCFR/
+
+Europe: https://www.pioneer-car.eu/eur/
+
+
+COMMITMENT TO THE ENVIRONMENT
+
+
+Here you can find the environmental reports and policies.
+
+Corporate Environmental Report: https://cutt.ly/SjvJEOI
+
+European Environmental Policy (PDF): https://cutt.ly/ojvJYEK
+
+Pioneer Europe ISO 14001 Certificate: https://cutt.ly/zjvJOrY</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NNZ-LG-HLD"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About Us" id="2RK-P4-4dt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CSL-fO-koT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.75362318840587" y="-961.60714285714278"/>
+        </scene>
+        <!--Blue-ray Drive-->
+        <scene sceneID="YZC-AH-1Wl">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="mBS-Tj-mR6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4kQ-gC-Bma">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JmA-KA-drV">
+                                <rect key="frame" x="27" y="560" width="356" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">
+• 4K Ultra HD Blu-ray playback
+
+• Long-term data protection with M-DISC™
+
+• USB 3.0
+
+• Super Lightweight (230g) and Portable
+
+• Auto Quiet, PowerRead™, and PureRead 3+ features
+
+• Up to 6x writing speed on BD-R &amp; BD-R DL media
+
+• Supports BDXL, Blu-ray, DVD, and CD media
+
+
+OVERVIEW
+
+
+The BDR-XD07TUHD is one of the world's smallest and lightest BD/DVD/CD portable burners supporting 4K Ultra HD Blu-ray playback using CyberLink software.
+
+The drive supports BDXL and M-DISC format. The ultra-compact 133×133mm USB 3.0 drive can read and write to all BDXL discs1 including BD-R triple-layer 100GB media, BD-R quad-layer 128GB media, and BD-RE triple layer 100GB media, as well as conventional Blu-ray discs (single-layer 25GB media and dual-layer 50GB media).
+
+The portable device, measuring only 133mm (W) X 133mm (D) X 14.8mm (H) and weighing a mere 230g, also has the ability to be powered directly via USB (no AC adaptor required). USB Type-C conversion cable included that enables to connect with Windows PC and Mac.
+
+
+SUPPORT
+
+
+CYBERLINK SOFTWARE
+
+https://jpn.pioneer/ja/pcperipherals/bdd/eula/cyberlink_media_suite/en.php
+
+SOFTWARE &amp; FIRMWARE DOWNLOAD
+
+https://pioneer.jp/support/download/index-e.html
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vw1-7w-1ZF">
+                                <rect key="frame" x="20" y="445" width="365" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">6x Slim Portable USB 3.0 BD/DVD/CD Burner. Supports 4K Ultra HD Blu-Ray Playback , BDXL™ And M-Disc™ Format. Super Lightweight. Usb Bus Powered. Cyberlink Software Included.</string>
+                                <color key="textColor" red="0.099359385669999994" green="0.13624313469999999" blue="0.18718627099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dXE-2e-Hd5">
+                                <rect key="frame" x="27" y="529" width="377" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">► Happy Customer: https://cutt.ly/kjvirEI
+</string>
+                                <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" shipmentTrackingNumber="YES"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueray_drive_p" translatesAutoresizingMaskIntoConstraints="NO" id="PhB-S0-dem">
+                                <rect key="frame" x="48" y="106" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vPb-59-gUW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blue-ray Drive" id="zSi-5C-y9q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u6v-JO-OXy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2411.594202898551" y="-561.16071428571422"/>
+        </scene>
+        <!--DDJ-XP2 Sub Controller-->
+        <scene sceneID="uDL-mJ-f9w">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Dph-gR-hzx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xdv-FA-kpZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dj_controller_p" translatesAutoresizingMaskIntoConstraints="NO" id="Ohu-yQ-x17">
+                                <rect key="frame" x="40" y="88" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZAI-Dg-WA7">
+                                <rect key="frame" x="40" y="359" width="335" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">DOUBLE TROUBLE
+Width 333 mm Height 42 mm Depth 235 mm Weight 1.5 kg Compatible DJ Software: Serato DJ Pro | rekordbox</string>
+                                <color key="textColor" red="0.099359385669999994" green="0.13624313469999999" blue="0.18718627099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4PB-dW-eZx">
+                                <rect key="frame" x="27" y="451" width="348" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">► Discover the Sound: https://cutt.ly/3jvoqQp 
+</string>
+                                <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d4m-g6-I5Z">
+                                <rect key="frame" x="27" y="504" width="356" height="346"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">• Compatibility with rekordbox and Serato DJ pro
+
+• Performance pads
+
+• Slide FX
+
+• 16-pad and transport modes
+
+• Silent cue
+
+
+OVERVIEW
+
+
+Level up with the DDJ-XP2 add-on DJ controller for rekordbox and Serato DJ Pro. No matter which DJ application you’re used to, this DJ hardware will enable you to get more out of it than ever before. This DDJ-XP1 evolution adds to the functionality of the original, without sacrificing the intuitive layout and solid build quality. Its sturdy construction and non-slip rubber surround mean you can hit it as hard as you want during performances.
+
+The DDJ-XP2 enhances your setup with 32 robust, multicolored Performance Pads, and puts powerful pad modes at your fingertips. Assign transport controls like play, pause, cue, and pitch up/down to the pads with Transport mode. Use 16 pads to control a single mode (a first for Serato DJ Pro). Trigger Silent Cue to soundlessly cue up tracks with the faders open on the mixer. Then instantly trigger them from Hot Cue points. And feel confident and in control during DJ performances thanks to the looping controls of our DJM-S9 flagship scratch mixer.
+
+
+SUPPORT
+
+
+https://www.pioneerdj.com/en/product/controller/ddj-xp2/black/support/#info</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wOV-o1-9op"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="DDJ-XP2 Sub Controller" id="Hw0-RM-ji0">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="c3g-Pm-D4l"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVJ-fb-Rr4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3402.898550724638" y="-443.30357142857139"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="AM4-57-2Km">
+            <objects>
+                <viewController id="SmB-z5-ACv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d6E-yb-9aG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-Kf-sn8">
+                                <rect key="frame" x="27" y="117" width="367" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <string key="text">ＨＥＡＤ  ＯＦＦＩＣＥ  ．ＪＡＰＡＮ
+
+View on Map | 28-8, Honkomagome 2-chome, Bunkyo-ku, 
+Tokyo 113-0021, Japan
+
+Phone | +81 236541211
+
+Website | https://global.pioneer/en/?ref=header
+
+-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽
+
+ＡＵＳＴＲＩＡ
+
+View on Map: Gorskistraße 3, 1230 Wien, Austria
+
+Phone: +43 161645800
+
+Website: http://www.pioneer-car.eu/at/de
+
+-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽
+
+ＧＥＲＭＡＮＹ
+
+View on Map: Hanns-Martin-Schleyer-Straße 35, 47877 Willich, Germany
+
+Phone: +49 (0)21549130
+
+Support Phone: +49 (0)2154913333
+
+Website: http://www.pioneer-car.de
+
+-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽
+
+ＩＴＡＬＹ
+
+View on Map: Via Lepetit, 20020 Lainate MI, Italy
+
+Phone: +39 0254107859
+
+Website: http://www.pioneer-car.it
+
+-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽
+
+ＳＰＡＩＮ
+
+View on Map: Avinguda de la Torre Blanca, 57, 08172 Sant Cugat del Vallès, Barcelona, Spain
+
+Website: http://www.sitandb.com
+
+-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽-͓̽
+
+ＴＵＲＫＥＹ
+
+Halkalı Caddesi No:20, 34295 Küçükçekmece/İstanbul
+
+Phone: +90 2124700600
+
+Fax: +90 2124717585
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bJP-WE-7BC"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contact" id="wvQ-HG-Jud"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="txt-4N-Qes" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.75362318840587" y="886.60714285714278"/>
+        </scene>
+        <!--TS-Z10LS4 Subwoofer-->
+        <scene sceneID="g4k-Lc-pYS">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="5NF-dr-NEz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a72-dw-4fp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="subwoofer_p" translatesAutoresizingMaskIntoConstraints="NO" id="d9A-du-uIb">
+                                <rect key="frame" x="57" y="119" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FaG-Fx-5Js">
+                                <rect key="frame" x="28" y="427" width="335" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">10"Single 4 ohms Voice Coil Subwoofer
+20 Hz to 3.8 kHz Maximum Peak Power Handling
+1300 Watts Hi-Res Certfied</string>
+                                <color key="textColor" red="0.099359385669999994" green="0.13624313469999999" blue="0.18718627099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DaC-tI-uqH">
+                                <rect key="frame" x="27" y="501" width="348" height="73.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">► Gimme Some Bass: https://cutt.ly/tjvGf63
+</string>
+                                <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CTb-Xl-id2">
+                                <rect key="frame" x="27" y="550" width="358" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">• Twaron® aramid fiber + cellulose fiber dual layer cone construction
+
+• Extended voice coil, dual spider design for increased linearity and high excursion
+
+• Shallow basket, small enclosure design for sound optimization and installation flexibility
+
+• Designed for hi-res audio
+
+
+OVERVIEW
+
+The Z subwoofer is based on the same highly advanced technology as the Z full range loudspeakers to create seamlessly integrated musical perfection – fast, detailed and extended bass with tremendous impact and clarity.
+
+Combining high fidelity and high output in a compact, shallow design, the Z subwoofer offers virtually unlimited installation flexibility. As a result, the placement of the Z subwoofer can be optimized for sound quality and bass reinforcement, unlike conventional subwoofers that must be installed simply where they physically fit. Balance, speed, power and bass extension – the ultimate combination for low-frequency nirvana.
+
+Even in the sub-bass region, Hi-Res Audio recordings contain significantly more data compared to a standard CD recording and require a subwoofer that is capable of extremely high dynamic range and low distortion that integrates smoothly with the the mid- and high-frequency speakers. The Z subwoofers are designed to take full advantage of Hi-Res Audio recordings, with wide dynamics, extended frequency response and extraordinarily accurate and detailed bass.
+
+
+Subwoofers require an extremely strong basket that holds the cone, suspension and motor structure together in perfect alignment even during high excursions at low frequencies. Traditional subwoofers require large enclosures that can be challenging to install seamlessly. The Z subwoofer features a shallow basket for installation flexibility, a low Q design for high performance in small enclosures, an oversized cone (15% larger when compared to a conventional 10" subwoofer) and a motor structure with a powerful 67.7 oz. magnet, all of which combine to produce fast, detailed and extended bass with tremendous impact and clarity.
+
+Twaron is a synthetic aramid fiber that is very strong, heat resistant and rigid when woven into a cloth material. Subwoofer cones created with Twaron are rigid and low mass with excellent damping characteristics. Strength and rigidity are important to maintain cone shape during challenging bass notes, while damping is critical to improving the responsiveness and signal accuracy. The low mass of an aramid fiber cone improves both sensitivity and the speed of the Z subwoofer, increasing output and power handling.
+ 
+
+INSTRUCTION MANUAL
+
+
+https://www.pioneerelectronics.com/StaticFiles/Manuals/Car/TS-Z10LS4-2_InstructionManual100418.pdf</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="upI-d8-J4p"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TS-Z10LS4 Subwoofer" id="dXm-U8-bsc">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="nuA-xb-HGJ"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vrq-Pg-Chf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2411.594202898551" y="519.64285714285711"/>
+        </scene>
+        <!--X-SMC02D Slim Micro System-->
+        <scene sceneID="fFr-8v-OLv">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="bqR-79-J5s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5R8-dW-Ia2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hifi_p" translatesAutoresizingMaskIntoConstraints="NO" id="lTx-Wg-KhN">
+                                <rect key="frame" x="57" y="102" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wWR-yX-IOj">
+                                <rect key="frame" x="40" y="382" width="335" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">CD-R/CD-RW Playback (MP3) USB Playback (MP3) 10 W + 10 W Power Output (1 kHz, 10 % THD, 8 ohms) 80 mm Full-Range Cone Speakers DAB Tuner FM Tuner (30 Presets)</string>
+                                <color key="textColor" red="0.099359385669999994" green="0.13624313469999999" blue="0.18718627099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jge-ty-FvV">
+                                <rect key="frame" x="27" y="516" width="358" height="346"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">• Slim CD and micro system with Bluetooth, USB, DAB, wallmountable
+
+• Interference-free radio reception
+
+• Slide FX
+
+• Easy to place slim design
+
+• Room-filling sound with outward facing speakers
+
+• Instant playback with auto-wakeup
+
+
+OVERVIEW
+
+
+If you love to have music around, but have limited space in your room, here’s the perfect solution. In a simple slim body that can be placed on a shelf or wall-mounted, the X-SMC02 lets you listen to songs via Audio in/USB/Bluetooth connection, play CDs, or enjoy FM radio programms. The Auto Wakeup function activated by Audio in connection provides hassle-free instant playback from smartphones or digital audio players. Enjoy the widespreading stereo sound across your room, delivered from the outward-facing speaker units.
+
+Enjoy your favourite radio stations completely free of interference thanks to the integrated DAB/DAB+ tuner. And, of course, if you so wish, also via the ultra shortwave (USW) tuner with RDS.
+
+Designed to fit almost any space, the X-SMC02 is slim and compact with a simple style that blends well with any room décor, while adding a touch of sophistication. The rear-tapering shape makes it an easy fit for corners, while the slight upward tilt is an ideal form for placing on a table. You can also wall-mount the system with the keyholes on the back.
+
+The speaker units are faced outward by an 8-degree angle, which allows the sound to spread out to a wide area. Regardless of where you listen, you can enjoy room-filling stereo sound, quite unlike those expected from an all-in-one system.
+
+Just plug in your smartphone or digital audio player to the Audio in, and the Auto Wakeup function will detect the signal from the terminal, turn on the system’s power, and automatically switch the input source. You can immediately play music from your device via a simple and secure wired connection.
+
+
+ALSO CHECK MICRO HI-FI'S
+
+
+https://eu.pioneer-av.com/en-GLOBAL/audio-hifi/audio-players/micro-systems/c/type_MicroSystems</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mYO-sx-ecJ">
+                                <rect key="frame" x="27" y="476" width="348" height="73.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">► Tech Review:  https://cutt.ly/GjvFKua
+
+</string>
+                                <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Gfr-vT-kCL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="X-SMC02D Slim Micro System" id="Rd9-kB-x79"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6rA-Hr-XTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3402.898550724638" y="377.67857142857139"/>
+        </scene>
+        <!--HDJ-700-K Headphone-->
+        <scene sceneID="0vx-dN-fET">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="clJ-HH-Tmx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Siz-Wh-B4j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="headphone_p" translatesAutoresizingMaskIntoConstraints="NO" id="6ks-5W-Cqg">
+                                <rect key="frame" x="57" y="105" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yus-HE-Mpc">
+                                <rect key="frame" x="40" y="413" width="334" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Fully-enclosed, dynamic headphones, 40 mm dome type, 3.5 mm stereo mini-jack (gold-plated, 2-way, screw-type) 1.2 m side mount coil cable (3 m extended length) 1 m straight cable</string>
+                                <color key="textColor" red="0.099359385669999994" green="0.13624313469999999" blue="0.18718627099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ffi-iD-emX">
+                                <rect key="frame" x="27" y="504" width="348" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">► Unboxing Video: https://cutt.ly/pjvpzXh
+</string>
+                                <color key="textColor" red="0.35035777089999998" green="0.070951633159999999" blue="0.17231574650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5XT-0f-n9f">
+                                <rect key="frame" x="27" y="565" width="356" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">• Optimized for dance music
+
+• Performance pads
+
+• Solid build
+
+• Comfortable fit
+
+• 60-degree rotating arm
+
+
+OVERVIEW
+
+
+Whether you're DJing at home, in the club or auditioning your music on the go, the HDJ-700s are a versatile companion.
+
+Taking inspiration from our top-flight range, they are fine-tuned to reproduce rich, clear mid to low frequencies – and feature spin-finished aluminium hinges, a lightweight build, rotatable ear cup, and a sleek, stylish design.
+
+
+COMBINE WITH
+
+
+DJM-450
+https://www.pioneerdj.com/en/product/mixer/djm-450/black/overview/
+
+DDJ-RR
+https://www.pioneerdj.com/en/product/controller/archive/ddj-rr/black/overview/
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="S1h-b0-NNK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HDJ-700-K Headphone" id="ZeU-jb-2Ig"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yhI-th-sRZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4466.666666666667" y="-50.223214285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tzf-q7-jIq">
+            <objects>
+                <navigationController id="u3j-l3-OoT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Gi-Aq-Z2J">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Zfc-g0-W7S" kind="relationship" relationship="rootViewController" id="dJC-Uf-Cap"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3F-Eo-cEp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-399" y="-49"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="about_us" width="64" height="64"/>
+        <image name="blueray_drive" width="64" height="64"/>
+        <image name="blueray_drive_p" width="625" height="625"/>
+        <image name="contact" width="64" height="64"/>
+        <image name="dj_controller" width="64" height="64"/>
+        <image name="dj_controller_p" width="625" height="625"/>
+        <image name="headphone" width="64" height="64"/>
+        <image name="headphone_p" width="625" height="625"/>
+        <image name="hifi" width="64" height="64"/>
+        <image name="hifi_p" width="625" height="625"/>
+        <image name="pioneer_company" width="750" height="560"/>
+        <image name="products" width="64" height="64"/>
+        <image name="subwoofer" width="64" height="64"/>
+        <image name="subwoofer_p" width="625" height="625"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
